@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+h1, h2, h3 {
+    color: #005f99; 
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 40px 0;
+}
+
+/* Header y Footer */
+.site-header, .site-footer {
+    background-color: #e60012; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.site-header h1 {
+    margin: 0;
+    color: white;
+}
+
+.site-header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #005f99;
+}
+
+.site-header a:hover {
+    background-color: #003d66;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+/* Secciones específicas */
+.autor-info {
+    background-color: #e7f5ff;
+    border-left: 5px solid #005f99;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.switch-container section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.switch-image {
+    max-width: 50%; /* Hace la imagen responsiva, nunca más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen al cambiar el ancho */
+    display: block; /* Permite centrar la imagen con márgenes */
+    margin: 20px auto 30px; /* 20px de espacio arriba, 30px abajo, y 'auto' la centra horizontalmente */
+    border-radius: 8px; /* Bordes redondeados consistentes con el resto del diseño */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Una sombra un poco más pronunciada para destacar la imagen */
+}
