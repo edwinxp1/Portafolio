@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['agregar_nota'])) {
 // UPDATE: Editar una nota
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['editar_nota'])) {
     $id = $_POST['id_nota'];
-    $nota_editada = $_POST['nota_editada'];
+    $nota_editada = $_POST['nota_edita'];
 
     $sql = "UPDATE notas SET nota = ? WHERE id = ?";
     $stmt = $conn->prepare($sql);
